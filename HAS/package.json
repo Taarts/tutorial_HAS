@@ -1,5 +1,5 @@
 {
-  "name": "html-css-ts-project-template",
+  "name": "has",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.8.4",
-    "vite": "^3.1.4"
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
   }
 }
