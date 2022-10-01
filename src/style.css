@@ -1,0 +1,17 @@
+:root {
+  --bg: hsl(200 50% 5%);
+  --fg: hsl(200 10% 98%);
+  --accent: hsl(250 75% 80%);
+}
+
+root:has(.theme > [values="light"]) {
+  --bg: hsl(200 10% 92%);
+  --fg: hsl(200 50% 10%);
+  --accent: hsl(250 75% 40%);
+}
+
+/* {
+  --bg: linear-gradient(red, yellow, orange, blue);
+  --fg: hsl(200 10% 92%);
+  --accent: hsl(250 75% 80%);
+} */
